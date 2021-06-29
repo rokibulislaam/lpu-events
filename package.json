@@ -6,5 +6,5 @@
   "repository": "https://github.com/rokibulislaam/lpu-events.git",
   "author": "Rokibul Islam <rokibul630@gmail.com>",
   "license": "GNU General Public License v3.0",
-  "private": false
+  "private": true
 }

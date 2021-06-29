@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registered_users",
+  "info": {
+    "name": "registered_users"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "event": {
+      "model": "events"
+    }
+  }
+}

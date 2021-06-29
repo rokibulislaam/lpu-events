@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/registered-users",
+      "handler": "registered-users.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/registered-users/count",
+      "handler": "registered-users.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/registered-users/:id",
+      "handler": "registered-users.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/registered-users",
+      "handler": "registered-users.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/registered-users/:id",
+      "handler": "registered-users.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/registered-users/:id",
+      "handler": "registered-users.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
