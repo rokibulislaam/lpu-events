@@ -1,0 +1,10 @@
+{
+  "name": "lpu-events",
+  "version": "1.0.0",
+  "description": "An event website for Web Mania LPU 2021 ",
+  "main": "index.js",
+  "repository": "https://github.com/rokibulislaam/lpu-events.git",
+  "author": "Rokibul Islam <rokibul630@gmail.com>",
+  "license": "GNU General Public License v3.0",
+  "private": false
+}
